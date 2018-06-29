@@ -1,0 +1,21 @@
+Package: Qlab
+Type: Package
+Title: Quantile estimation
+Version: 1.0.0
+Date: 2018-05-24
+Author: Victor Picheny
+Maintainer: Victor Picheny <victor.picheny@inra.fr>
+Description: Sequential strategies for the estimation of a quantile. 
+License: GPL-3
+LazyData: TRUE
+Imports:
+    Rcpp (>= 0.12.5),
+    DiceKriging,
+    GPareto,
+    MASS,
+    mnormt,
+    mvtnorm,
+    methods
+Suggests: DiceOptim
+LinkingTo: Rcpp
+RoxygenNote: 6.0.1
